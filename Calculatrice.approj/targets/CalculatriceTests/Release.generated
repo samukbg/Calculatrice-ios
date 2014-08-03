@@ -1,0 +1,125 @@
+{
+    "assets": [
+        {
+            "asset": "CalculatriceTests/en.lproj/InfoPlist.strings", 
+            "target": "en.lproj/InfoPlist.strings"
+        }
+    ], 
+    "config": {
+        "APPLICATION_IDENTIFIER": "company.CalculatriceTests", 
+        "LONG_VERSION": "1", 
+        "SHORT_VERSION": "1.0", 
+        "TEMPLATE_VALUES": {
+            "EXECUTABLE_NAME": "CalculatriceTests", 
+            "PRODUCT_NAME": "CalculatriceTests"
+        }
+    }, 
+    "defines": {
+        "NS_BLOCK_ASSERTIONS": 1, 
+        "__IPHONE_OS_VERSION_MIN_REQUIRED": 70000
+    }, 
+    "deps": [
+        "UIKit", 
+        "CoreGraphics", 
+        "UIKit", 
+        "Foundation", 
+        "XCTest", 
+        "XCTest", 
+        "UIKit", 
+        "Foundation"
+    ], 
+    "flags": [
+        "-fobjc-arc", 
+        "-fasm-blocks", 
+        {
+            "flag": "-std=gnu99", 
+            "not_type": "c++"
+        }, 
+        {
+            "flag": "-fgnu-keywords", 
+            "not_type": "c++"
+        }, 
+        "-fno-asm", 
+        "-fpascal-strings", 
+        "-Wempty-body", 
+        "-Wshorten-64-to-32", 
+        "-Wno-deprecated-declarations", 
+        "-Wswitch", 
+        "-Wparentheses", 
+        "-Wformat", 
+        "-Wuninitialized", 
+        "-Wunused-function", 
+        "-Wunused-value", 
+        "-Wunused-variable", 
+        {
+            "flag": "-Winvalid-offsetof", 
+            "type": "c++"
+        }, 
+        {
+            "flag": "-Wprotocol", 
+            "type": "objc"
+        }, 
+        {
+            "flag": "-Wundeclared-selector", 
+            "type": "objc"
+        }
+    ], 
+    "header_paths": [
+        {
+            "header_path": "CalculatriceTests-generated-files.hmap", 
+            "hmap": {}, 
+            "type": "iquote"
+        }, 
+        {
+            "header_path": "CalculatriceTests-own-target-headers.hmap", 
+            "hmap": {}, 
+            "type": "I"
+        }, 
+        {
+            "header_path": "CalculatriceTests-all-target-headers.hmap", 
+            "hmap": {}, 
+            "type": "I"
+        }, 
+        {
+            "header_path": "CalculatriceTests-project-headers.hmap", 
+            "hmap": {
+                "AppDelegate.h": {
+                    "key": "AppDelegate.h", 
+                    "prefix": "Calculatrice/", 
+                    "suffix": "AppDelegate.h"
+                }, 
+                "Calculatrice-Prefix.pch": {
+                    "key": "Calculatrice-Prefix.pch", 
+                    "prefix": "Calculatrice/", 
+                    "suffix": "Calculatrice-Prefix.pch"
+                }, 
+                "ViewController.h": {
+                    "key": "ViewController.h", 
+                    "prefix": "Calculatrice/", 
+                    "suffix": "ViewController.h"
+                }
+            }, 
+            "type": "iquote"
+        }
+    ], 
+    "infoplists": [
+        "./CalculatriceTests/CalculatriceTests-Info.plist"
+    ], 
+    "libs": [], 
+    "modules": [], 
+    "pchs": [
+        "./Calculatrice/Calculatrice-Prefix.pch"
+    ], 
+    "sources": [
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "CalculatriceTests/CalculatriceTests.m"
+        }
+    ], 
+    "type": "com.apple.product-type.bundle.unit-test", 
+    "version": "1", 
+    "xcode_project": "Calculatrice.xcodeproj"
+}
